@@ -12,7 +12,7 @@ const rotationValues = [
   { minDegree: 331, maxDegree: 360, value: 2 },
 ];
 //Size of each piece
-const data = [16, 16, 16, 16, 16, 16];
+const data = [16, 16, 16, 16, 16]; //16
 //background color for each piece
 var pieColors = [
   "#8b35bc",
@@ -20,7 +20,7 @@ var pieColors = [
   "#8b35bc",
   "#b163da",
   "#8b35bc",
-  "#b163da",
+  //"#b163da",
 ];
 //Create chart
 let myChart = new Chart(wheel, {
@@ -36,7 +36,7 @@ let myChart = new Chart(wheel, {
         "     En \n   bakke \n    æg", 
         "ICED!", 
         "Lapdance\n    fra\n Kristian", 
-        "Du en \n   Bitch"
+        //"Du en \n   Bitch"
     ],
     //Settings for dataset/pie
     datasets: [
@@ -60,7 +60,7 @@ let myChart = new Chart(wheel, {
       datalabels: {
         color: "#ffffff",
         formatter: (_, context) => context.chart.data.labels[context.dataIndex],
-        font: { size: 24 },
+        font: { size: 18 },
       },
     },
   },
