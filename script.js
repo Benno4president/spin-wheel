@@ -36,7 +36,7 @@ let myChart = new Chart(wheel, {
         "     En \n   bakke \n    æg", 
         "ICED!", 
         "Lapdance\n    fra\n Kristian", 
-        "Du en \n  Bitch"
+        "Du en \n   Bitch"
     ],
     //Settings for dataset/pie
     datasets: [
